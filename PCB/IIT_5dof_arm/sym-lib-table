@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IIT_5dof_arm")(type "KiCad")(uri "${KIPRJMOD}/IIT_5dof_arm.kicad_sym")(options "")(descr ""))
+)
