@@ -11916,7 +11916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 118.618 46.99 90)
 			(effects
 				(font
@@ -14518,7 +14518,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "a7f50336-9f1e-44bf-b827-18499e2e0ae1")
 		(property "Reference" "SW8"
@@ -14538,7 +14538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_FSMSM"
 			(at 185.42 39.37 0)
 			(effects
 				(font
@@ -15860,7 +15860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 118.618 54.61 90)
 			(effects
 				(font
@@ -16842,7 +16842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 131.318 25.4 90)
 			(effects
 				(font
@@ -17313,7 +17313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 123.19 36.83 0)
 			(effects
 				(font
@@ -17401,7 +17401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 158.75 30.48 0)
 			(effects
 				(font
