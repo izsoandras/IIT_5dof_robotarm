@@ -14622,7 +14622,7 @@
 		(layer "Edge.Cuts")
 		(uuid "820f2ed2-fdcd-41a7-9a6c-c764d1b2a5ca")
 	)
-	(gr_text "RS232 (DCE):\n1: +5V	6 = 4\n2: TX	7 = 7\n3: RX	8 = 7\n4 = 6	9 = +5V\n5: GND	"
+	(gr_text "RS232 (DCE):\n1: +5V	6 = 4\n2: TX	7 = 8\n3: RX	8 = 7\n4 = 6	9 = +5V\n5: GND	"
 		(at 70.6628 83.3628 90)
 		(layer "F.SilkS")
 		(uuid "30b06e33-df40-490d-adee-ab1e8b9110e4")
