@@ -4998,6 +4998,301 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:BSS84"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS84"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSS84_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BSS84_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -5354,6 +5649,12 @@
 		(uuid "21169b35-dc71-46f4-bdb5-2efbb2b10015")
 	)
 	(junction
+		(at 186.69 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21332146-e3a0-48b7-8678-d82c4f4b46f7")
+	)
+	(junction
 		(at 27.94 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5364,12 +5665,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29f07437-4f79-4c63-8f04-44e9caaeb5a3")
-	)
-	(junction
-		(at 186.69 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cdf8a9e-2b2f-4944-8a05-e4fc851b35a2")
 	)
 	(junction
 		(at 27.94 262.89)
@@ -5436,12 +5731,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39205ad0-6141-4c7c-9abc-24841a0222e9")
-	)
-	(junction
-		(at 283.21 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3988fbaf-cee6-4722-88ac-0aa5e8944808")
 	)
 	(junction
 		(at 95.25 177.8)
@@ -5564,24 +5853,6 @@
 		(uuid "6e0d22e9-c846-4f76-8948-567f90c610ee")
 	)
 	(junction
-		(at 356.87 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "709ecb91-8267-48f1-8935-72518be69daf")
-	)
-	(junction
-		(at 186.69 247.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71270d52-a09e-4b50-a9ef-59bd904e8678")
-	)
-	(junction
-		(at 356.87 199.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "720cb18e-59b8-4152-b469-cb25f531d0f0")
-	)
-	(junction
 		(at 95.25 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5628,6 +5899,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a5df7cb-7ee1-413e-87ac-043923627095")
+	)
+	(junction
+		(at 356.87 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d1fef4f-5717-4d0c-a2d8-ccde16e84df4")
+	)
+	(junction
+		(at 186.69 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f3952e9-233e-4f65-9049-17e457086d49")
 	)
 	(junction
 		(at 68.58 251.46)
@@ -5696,7 +5979,7 @@
 		(uuid "c19c7288-ed14-4448-a5a9-df42efb33576")
 	)
 	(junction
-		(at 283.21 177.8)
+		(at 283.21 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c367bbc5-3f39-446c-85ad-d91180760aa4")
@@ -5706,6 +5989,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6a2f491-0c01-434e-ae2b-adf6042beed9")
+	)
+	(junction
+		(at 283.21 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cad93731-7161-494b-b289-38581761155b")
 	)
 	(junction
 		(at 280.67 19.05)
@@ -5808,6 +6097,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ece11eea-0322-4fef-b342-b439a997319e")
+	)
+	(junction
+		(at 356.87 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2db2d70-f153-4541-9b36-7a79d4ad6947")
 	)
 	(junction
 		(at 180.34 34.29)
@@ -6007,7 +6302,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 177.8) (xy 356.87 177.8)
+			(xy 356.87 187.96) (xy 369.57 187.96)
 		)
 		(stroke
 			(width 0)
@@ -6027,7 +6322,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 204.47) (xy 349.25 204.47)
+			(xy 328.93 182.88) (xy 349.25 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6427,7 +6722,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 180.34) (xy 369.57 177.8)
+			(xy 369.57 190.5) (xy 369.57 187.96)
 		)
 		(stroke
 			(width 0)
@@ -6487,7 +6782,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 187.96) (xy 369.57 199.39)
+			(xy 369.57 198.12) (xy 369.57 209.55)
 		)
 		(stroke
 			(width 0)
@@ -6597,7 +6892,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 186.69) (xy 294.64 198.12)
+			(xy 294.64 196.85) (xy 294.64 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6627,7 +6922,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 186.69) (xy 356.87 190.5)
+			(xy 356.87 196.85) (xy 356.87 200.66)
 		)
 		(stroke
 			(width 0)
@@ -6667,7 +6962,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 228.6) (xy 186.69 228.6)
+			(xy 193.04 238.76) (xy 186.69 238.76)
 		)
 		(stroke
 			(width 0)
@@ -7177,7 +7472,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 247.65) (xy 186.69 247.65)
+			(xy 193.04 257.81) (xy 186.69 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7207,7 +7502,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 198.12) (xy 356.87 199.39)
+			(xy 356.87 208.28) (xy 356.87 209.55)
 		)
 		(stroke
 			(width 0)
@@ -7487,7 +7782,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 241.3) (xy 193.04 247.65)
+			(xy 193.04 251.46) (xy 193.04 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7597,7 +7892,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 176.53) (xy 283.21 177.8)
+			(xy 283.21 186.69) (xy 283.21 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7697,7 +7992,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 196.85) (xy 283.21 198.12)
+			(xy 283.21 207.01) (xy 283.21 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7717,7 +8012,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 246.38) (xy 186.69 247.65)
+			(xy 186.69 256.54) (xy 186.69 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7737,7 +8032,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 252.73) (xy 179.07 252.73)
+			(xy 161.29 233.68) (xy 179.07 233.68)
 		)
 		(stroke
 			(width 0)
@@ -7747,7 +8042,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 198.12) (xy 283.21 198.12)
+			(xy 294.64 208.28) (xy 283.21 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7867,7 +8162,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 233.68) (xy 193.04 228.6)
+			(xy 193.04 243.84) (xy 193.04 238.76)
 		)
 		(stroke
 			(width 0)
@@ -7997,7 +8292,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 203.2) (xy 275.59 203.2)
+			(xy 255.27 181.61) (xy 275.59 181.61)
 		)
 		(stroke
 			(width 0)
@@ -8047,7 +8342,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 179.07) (xy 294.64 177.8)
+			(xy 294.64 189.23) (xy 294.64 187.96)
 		)
 		(stroke
 			(width 0)
@@ -8127,7 +8422,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 177.8) (xy 356.87 179.07)
+			(xy 356.87 187.96) (xy 356.87 189.23)
 		)
 		(stroke
 			(width 0)
@@ -8157,7 +8452,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 199.39) (xy 356.87 199.39)
+			(xy 369.57 209.55) (xy 356.87 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8427,7 +8722,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 236.22) (xy 186.69 238.76)
+			(xy 186.69 246.38) (xy 186.69 248.92)
 		)
 		(stroke
 			(width 0)
@@ -8557,7 +8852,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 177.8) (xy 283.21 177.8)
+			(xy 294.64 187.96) (xy 283.21 187.96)
 		)
 		(stroke
 			(width 0)
@@ -8977,7 +9272,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 185.42) (xy 283.21 189.23)
+			(xy 283.21 195.58) (xy 283.21 199.39)
 		)
 		(stroke
 			(width 0)
@@ -9610,7 +9905,7 @@
 		(uuid "641ff10b-37af-43f1-9e8a-a1d48bcfd80d")
 	)
 	(label "PROG_SW"
-		(at 255.27 203.2 0)
+		(at 255.27 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9907,7 +10202,7 @@
 		(uuid "dce95c25-e9ce-4a52-b749-6d4b7398c711")
 	)
 	(label "PROG_SW"
-		(at 328.93 204.47 0)
+		(at 328.93 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10017,7 +10312,7 @@
 		(uuid "f5819bb6-0324-4f3a-952e-f8b9c090f9be")
 	)
 	(label "PROG_SW"
-		(at 161.29 252.73 0)
+		(at 161.29 233.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10199,7 +10494,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 283.21 181.61 90)
+		(at 283.21 191.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10207,7 +10502,7 @@
 		(dnp no)
 		(uuid "070ab5ef-b322-43f1-b96f-a7548830f664")
 		(property "Reference" "D6"
-			(at 286.258 179.832 0)
+			(at 286.258 189.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +10511,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 277.876 182.626 90)
+			(at 277.876 192.786 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +10521,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 283.21 181.61 0)
+			(at 283.21 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10235,7 +10530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 283.21 181.61 0)
+			(at 283.21 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10244,7 +10539,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 283.21 181.61 0)
+			(at 283.21 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10484,6 +10779,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS84")
+		(at 280.67 181.61 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cbabbc3-7b19-4e00-a034-24d28a448e23")
+		(property "Reference" "Q3"
+			(at 287.02 182.8801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS84"
+			(at 287.02 180.3401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 285.75 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+			(at 285.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 280.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76042c08-8375-42db-9206-4ac1b539a41a")
+		)
+		(pin "2"
+			(uuid "1f34aa85-676d-4c54-b694-a162b3ed1892")
+		)
+		(pin "3"
+			(uuid "18a783fa-f6aa-43ee-9b79-0554602633c9")
+		)
+		(instances
+			(project "IIT_5dof_arm_IO"
+				(path "/0f068702-a42c-4fbd-af09-b98192ba38a4"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 172.72 182.88 0)
 		(unit 1)
@@ -10552,7 +10923,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 186.69 242.57 0)
+		(at 186.69 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10560,7 +10931,7 @@
 		(dnp no)
 		(uuid "0f14d8cf-85a2-4e16-8ab1-9efba87151d2")
 		(property "Reference" "R13"
-			(at 188.976 244.348 90)
+			(at 188.976 254.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10568,7 +10939,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 188.976 240.03 90)
+			(at 188.976 250.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10576,7 +10947,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 184.912 242.57 90)
+			(at 184.912 252.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10585,7 +10956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 242.57 0)
+			(at 186.69 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10594,7 +10965,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 186.69 242.57 0)
+			(at 186.69 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12274,82 +12645,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 280.67 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "364803ec-fc20-42fc-8c1b-d2be97d2df8f")
-		(property "Reference" "Q2"
-			(at 287.02 201.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 287.02 204.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 285.75 205.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 285.75 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 280.67 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "79a311d9-1c3c-486c-a441-a42f7694cc2d")
-		)
-		(pin "1"
-			(uuid "c26cda99-3a79-4203-9e7a-22c0b808edbe")
-		)
-		(pin "3"
-			(uuid "8d56850a-c272-4b10-b4bb-1ca7e14719ae")
-		)
-		(instances
-			(project "IIT_5dof_arm_IO"
-				(path "/0f068702-a42c-4fbd-af09-b98192ba38a4"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 101.6 257.81 0)
 		(unit 1)
@@ -13237,7 +13532,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 294.64 182.88 0)
+		(at 294.64 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13245,7 +13540,7 @@
 		(dnp no)
 		(uuid "488f2ab6-338e-43df-9f38-5988457b5f48")
 		(property "Reference" "R29"
-			(at 296.926 184.658 90)
+			(at 296.926 194.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13253,7 +13548,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 296.926 180.34 90)
+			(at 296.926 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13261,7 +13556,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 292.862 182.88 90)
+			(at 292.862 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13270,7 +13565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 294.64 182.88 0)
+			(at 294.64 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13279,7 +13574,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 294.64 182.88 0)
+			(at 294.64 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14288,7 +14583,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 369.57 184.15 0)
+		(at 369.57 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14296,7 +14591,7 @@
 		(dnp no)
 		(uuid "5a80df31-9023-4129-a430-80751dec5aeb")
 		(property "Reference" "R35"
-			(at 371.856 185.928 90)
+			(at 371.856 196.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14304,7 +14599,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 371.856 181.61 90)
+			(at 371.856 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14312,7 +14607,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 367.792 184.15 90)
+			(at 367.792 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14321,7 +14616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 369.57 184.15 0)
+			(at 369.57 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14330,7 +14625,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 369.57 184.15 0)
+			(at 369.57 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14413,82 +14708,6 @@
 			(project "IIT_5dof_arm_IO"
 				(path "/0f068702-a42c-4fbd-af09-b98192ba38a4"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 354.33 204.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5defa6c2-4dfb-497b-ab73-372b1e6d3cf6")
-		(property "Reference" "Q4"
-			(at 360.68 203.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 360.68 205.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 359.41 206.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 359.41 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 354.33 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c3cd3841-2b4c-45b9-ba63-5541723a6f5e")
-		)
-		(pin "1"
-			(uuid "6db340b7-392f-4712-bf04-f3339f02eb97")
-		)
-		(pin "3"
-			(uuid "36e63890-d1c1-4290-9845-79c856b91045")
-		)
-		(instances
-			(project "IIT_5dof_arm_IO"
-				(path "/0f068702-a42c-4fbd-af09-b98192ba38a4"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -14956,6 +15175,82 @@
 			(project "IIT_5dof_arm_IO"
 				(path "/0f068702-a42c-4fbd-af09-b98192ba38a4"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS84")
+		(at 354.33 182.88 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6afc07fe-8022-43da-bcca-2b83f86209bb")
+		(property "Reference" "Q4"
+			(at 360.68 184.1501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS84"
+			(at 360.68 181.6101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 359.41 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+			(at 359.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 354.33 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9d98f23c-8307-40e7-addd-3ffd2f383187")
+		)
+		(pin "2"
+			(uuid "53da0e1c-5a75-45a5-84c2-d4ad36778baf")
+		)
+		(pin "1"
+			(uuid "1be4d937-b6ca-4402-ae85-63c437a503f7")
+		)
+		(instances
+			(project "IIT_5dof_arm_IO"
+				(path "/0f068702-a42c-4fbd-af09-b98192ba38a4"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -15575,7 +15870,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 356.87 182.88 270)
+		(at 356.87 193.04 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15584,7 +15879,7 @@
 		(dnp no)
 		(uuid "752940c0-0a8f-47da-966f-a234310930c8")
 		(property "Reference" "D12"
-			(at 353.822 181.356 0)
+			(at 353.822 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15593,7 +15888,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 362.204 183.896 90)
+			(at 362.204 194.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15603,7 +15898,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 356.87 182.88 0)
+			(at 356.87 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15612,7 +15907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 356.87 182.88 0)
+			(at 356.87 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15621,7 +15916,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 356.87 182.88 0)
+			(at 356.87 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17522,7 +17817,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 283.21 193.04 0)
+		(at 283.21 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17530,7 +17825,7 @@
 		(dnp no)
 		(uuid "9c5fcab2-7c8f-422c-8f32-79912ef5f824")
 		(property "Reference" "R8"
-			(at 285.496 194.818 90)
+			(at 285.496 204.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17538,7 +17833,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 285.496 190.5 90)
+			(at 285.496 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17546,7 +17841,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 281.432 193.04 90)
+			(at 281.432 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17555,7 +17850,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 283.21 193.04 0)
+			(at 283.21 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17564,7 +17859,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 283.21 193.04 0)
+			(at 283.21 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17847,82 +18142,6 @@
 			(project "IIT_5dof_arm_IO"
 				(path "/0f068702-a42c-4fbd-af09-b98192ba38a4"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 184.15 252.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3642555-f3ee-47ae-b3b9-dbc57acc95aa")
-		(property "Reference" "Q3"
-			(at 190.5 251.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 190.5 253.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 189.23 254.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 189.23 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 184.15 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "057e9018-c7ff-4c73-a3f7-57f0f3be67b9")
-		)
-		(pin "1"
-			(uuid "f731a127-c1ce-492b-8d37-30631c1908f3")
-		)
-		(pin "3"
-			(uuid "f4e0d915-d6fb-4a6e-b7a2-f858d1123ed1")
-		)
-		(instances
-			(project "IIT_5dof_arm_IO"
-				(path "/0f068702-a42c-4fbd-af09-b98192ba38a4"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -20510,7 +20729,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 356.87 194.31 0)
+		(at 356.87 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20518,7 +20737,7 @@
 		(dnp no)
 		(uuid "d940f455-1827-4cbf-a110-3c9468cb0a4f")
 		(property "Reference" "R14"
-			(at 359.156 196.088 90)
+			(at 359.156 206.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20526,7 +20745,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 359.156 191.77 90)
+			(at 359.156 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20534,7 +20753,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 355.092 194.31 90)
+			(at 355.092 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20543,7 +20762,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 356.87 194.31 0)
+			(at 356.87 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20552,7 +20771,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 356.87 194.31 0)
+			(at 356.87 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20577,7 +20796,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.04 237.49 0)
+		(at 193.04 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20585,7 +20804,7 @@
 		(dnp no)
 		(uuid "d98c8c12-e173-4fbb-bf2f-2b74ef49e610")
 		(property "Reference" "R34"
-			(at 195.326 239.268 90)
+			(at 195.326 249.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20593,7 +20812,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 195.326 234.95 90)
+			(at 195.326 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20601,7 +20820,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 191.262 237.49 90)
+			(at 191.262 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20610,7 +20829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 237.49 0)
+			(at 193.04 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20619,7 +20838,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 193.04 237.49 0)
+			(at 193.04 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21347,7 +21566,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMAJ12A"
+		(property "Value" "SMAJ5.0A"
 			(at 342.9 52.0699 90)
 			(effects
 				(font
@@ -21535,7 +21754,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 186.69 232.41 270)
+		(at 186.69 242.57 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21544,7 +21763,7 @@
 		(dnp no)
 		(uuid "ef6a2834-4e3c-4f8e-b35b-efd9bcf48baf")
 		(property "Reference" "D11"
-			(at 183.642 230.886 0)
+			(at 183.642 241.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21553,7 +21772,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 192.024 233.426 90)
+			(at 192.024 243.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21563,7 +21782,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 186.69 232.41 0)
+			(at 186.69 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21572,7 +21791,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 232.41 0)
+			(at 186.69 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21581,7 +21800,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 186.69 232.41 0)
+			(at 186.69 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22065,6 +22284,82 @@
 			(project "IIT_5dof_arm_IO"
 				(path "/0f068702-a42c-4fbd-af09-b98192ba38a4"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS84")
+		(at 184.15 233.68 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc059c38-a1af-4f6c-a2d8-7262b98633f0")
+		(property "Reference" "Q2"
+			(at 190.5 234.9501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS84"
+			(at 190.5 232.4101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 189.23 231.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+			(at 189.23 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 184.15 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a605ce1-a758-4907-9258-c12a60f8add3")
+		)
+		(pin "1"
+			(uuid "77c26012-2627-4574-98e0-83d79a5bb5ed")
+		)
+		(pin "3"
+			(uuid "614eae32-05e7-4a76-8668-eec44d2e000a")
+		)
+		(instances
+			(project "IIT_5dof_arm_IO"
+				(path "/0f068702-a42c-4fbd-af09-b98192ba38a4"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
