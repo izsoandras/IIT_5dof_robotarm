@@ -1,4 +1,4 @@
-23044608754882145
+23049790301938814
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94402,9 +94402,30 @@ DSN1504_module
 8
 4
 onlab
+IIT_logo
+
+
+0
+0
+0
+onlab
+IIT_logo_15x15mm
+
+
+0
+0
+0
+onlab
 motor
 
 
 0
 6
 6
+onlab
+polyfuse
+
+
+0
+2
+2
